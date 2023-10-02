@@ -1,0 +1,18 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: rgb(25, 117, 148); 
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 16px; 
+    font-family: system-ui, sans-serif ;
+    color: rgb(247, 247, 250); 
+    text-align: center;
+    margin-bottom: 20px;
+}
