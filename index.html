@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVUELVO</title>
+    <title>Registro de Usuario</title>
     <link rel="stylesheet" href="./estilo.css">
 </head>
 <body>
+    <h1>Registro de Usuario</h1>
+    <form id="registroFormulario">
+    <div id="validacionMensaje" style="color: rgb(255, 255, 255); font-family: 'Trebuchet MS', sans-serif;"></div>
 
-    <h1>MAÑANA TE DEVUELVO...</h1>
+    
+       <div class="input-container">
+    <label for="nombreInput">Nombre:</label>
+    <input type="text" id="nombreInput" required>
+    
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" required>
+    
+    <label for="celularInput">Celular:</label>
+    <input type="text" id="celularInput" required>
+    
+    
+</div>
+    </form>
+<button id="guardarButton">Guardar</button>
     <script src="./doc.js"></script>
 </body>
 </html>
+

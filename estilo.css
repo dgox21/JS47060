@@ -1,18 +1,55 @@
-/* Estilo para el fondo de la página */
+/*fondo*/
 body {
-    background-color: rgb(25, 117, 148); 
-    margin: 0; 
+    background-color: rgb(25, 117, 148);
+    margin: 0;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
     flex-direction: column;
+    font-family: system-ui, sans-serif;
+    color: rgb(247, 247, 250);
 }
 
+/* título */
 h1 {
-    font-size: 16px; 
-    font-family: system-ui, sans-serif ;
-    color: rgb(247, 247, 250); 
+    font-size: 24px; 
+    font-family: system-ui, sans-serif;
+    color: rgb(247, 247, 250);
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* contenedor de los inputs*/
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    max-width: 400px; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: rgba(255, 255, 255, 0.1); }
+
+/* Estilo para los inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+/*botón */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
